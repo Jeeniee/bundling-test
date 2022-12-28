@@ -1,4 +1,4 @@
-import { GenerateName } from './faker';
+import { GenerateName, Test } from './faker';
 
 function Init() {
   const name = GenerateName()

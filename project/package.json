@@ -1,12 +1,16 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "rollup": "^3.9.0"
   },
   "dependencies": {
-    "faker": "^6.6.6"
+    "@faker-js/faker": "^7.6.0"
+  },
+  "scripts": {
+    "build": "rollup src/main.js --file dist/main.js ",
+    "start": "node dist/main.js"
   }
 }
