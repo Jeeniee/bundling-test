@@ -10,7 +10,7 @@
     "@faker-js/faker": "^7.6.0"
   },
   "scripts": {
-    "build": "rollup src/main.js --file dist/main.js ",
+    "build": "rollup -c",
     "start": "node dist/main.js"
   }
 }
